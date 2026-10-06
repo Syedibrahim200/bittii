@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#08020d" />
+    <title>A Surprise For A Very Special Person ❤️</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="particles"></div>
+
+    <main>
+      <!-- SCREEN 1 -->
+      <section id="welcome" class="screen active">
+        <div class="orb orb1"></div>
+        <div class="orb orb2"></div>
+        <div class="hero-card glass">
+          <div class="tiny-label">
+            A SECRET MESSAGE FOR ONE VERYYYYY SPECIAL PERSONNNNN😁
+          </div>
+          <div class="sparkle">✦</div>
+          <h1>HELLOO MADAMJIII...</h1>
+          <p class="hero-sub">THIS WILL BE THE SMALLEST SURPRISE EVER I HAVE GIVEN YOUU😁🎉</p>
+          <p class="type-line" id="typeLine"></p>
+          <button class="primary-btn" data-next="story">
+            Enter if you want ✨
+          </button>
+          <p class="micro">
+            Made with moreeee moreeeee amount of loveee❤️❤️ &amp;meee careee for my Maryamiiiiil.❤️❤️😌
+          </p>
+        </div>
+      </section>
+
+      <!-- SCREEN 2 -->
+      <section id="story" class="screen">
+        <div class="section-wrap">
+          <div class="tiny-label">CHAPTER 01 · THE BEGINNING</div>
+          <h2>And somehow...</h2>
+          <p class="lead">
+            we just started a random Snapchat request became something neither of us
+            expected by the will of allaah❤️❤️...
+          </p>
+
+          <div class="story-card glass reveal">
+            <div class="snap-icon">👻</div>
+            <div>
+              <span class="date-pill">MY FIRST SNAP TEXT TO YOUU</span>
+              <h3>Assalamualaikum. ❤️</h3>
+              <p>
+               we were just two people asking how each other's day was and all anin darmane ek timewe made 2 new id to talk to mee...
+               
+              </p>
+              <p class="soft">
+                And yet, somehow, it became the beginning of our love story... and will be writing always a new chapter till we die inshallah❤️
+              </p>
+            </div>
+          </div>
+
+          <div class="story-card glass reveal">
+            <div class="snap-icon">📞</div>
+            <div>
+              <span class="date-pill">OUR FIRST CALL</span>
+              <h3>That call while you were in Mangalore anin we just for ek min then tu cut kaili😭😭😭.</h3>
+              <p>One more little memory of us that quietly became a big one.</p>
+            </div>
+          </div>
+
+          <div class="story-card highlight glass reveal">
+            <div class="snap-icon">💌</div>
+            <div>
+              <span class="date-pill">MOJII THE BESTTT MEMORRYYYY😭💖💖😭</span>
+              <h3>Whenn you proposed mee first.</h3>
+              <p>
+                I was literally about to do it... and then you did it
+                <b>one minute before me.</b> 😭😭😭😭😭
+              </p>
+              <p class="soft">
+                You stole my moment. And somehow made it even more specialesttt oneeee...
+              </p>
+            </div>
+          </div>
+
+          <button class="primary-btn" data-next="quiz">
+            Okay, test me on us 😁😁 →
+          </button>
+        </div>
+      </section>
+
+      <!-- SCREEN 3 -->
+      <section id="quiz" class="screen">
+        <div class="section-wrap">
+          <div class="tiny-label">CHAPTER 02 ·  QUIZ FORR MYY LOVELYY MARYAMIII💖</div>
+          <div class="score-row">
+            <span>OUR SCORE</span>
+            <strong id="score">0</strong>
+          </div>
+
+          <div id="quizBox" class="quiz-card glass"></div>
+        </div>
+      </section>
+
+      <!-- SCREEN 4 -->
+      <section id="games" class="screen">
+        <div class="section-wrap">
+          <div class="tiny-label">CHAPTER 03 · PROVE YOURSELF</div>
+          <h2>Game time 🎮</h2>
+          <p class="lead">
+            You don't get the surprise that easily, Maryamiiiii. hehehe😁😁💖
+          </p>
+
+          <div class="game-card glass" id="heartGame">
+            <div class="game-top">
+              <div>
+                <span class="date-pill">GAME 01</span>
+                <h3>Catch yourr Ibrahimiii's hearts 💖💖❤️</h3>
+              </div>
+              <div class="game-stat"><span id="heartScore">0</span>/10</div>
+            </div>
+            <p>
+              Move the basket with your finger. Catch 10 hearts before time runs
+              out.
+            </p>
+            <div id="heartArena" class="arena">
+              <div id="basket">🧺</div>
+            </div>
+            <button id="startHeartGame" class="secondary-btn">
+              Start game
+            </button>
+            <p id="heartMessage" class="game-message"></p>
+          </div>
+
+          <div class="game-card glass locked-game" id="balloonGame">
+            <div class="game-top">
+              <div>
+                <span class="date-pill">GAME 02</span>
+                <h3>Pop the balloons 🎈</h3>
+              </div>
+              <div class="game-stat"><span id="balloonScore">0</span>/8</div>
+            </div>
+            <p>Pop 8 balloons. Some of them have important messages. 👀</p>
+            <div id="balloonArena" class="arena balloon-arena"></div>
+            <button id="startBalloonGame" class="secondary-btn">
+              Start game
+            </button>
+            <p id="balloonMessage" class="game-message"></p>
+          </div>
+
+          <button id="toFuture" class="primary-btn hidden" data-next="future">
+            Unlock the future 🔮 →
+          </button>
+        </div>
+      </section>
+
+      <!-- SCREEN 5 -->
+      <section id="future" class="screen">
+        <div class="section-wrap">
+          <div class="tiny-label">Its Simplyy usss 💖💖</div>
+          <h2>ELLOO MADAMM JIII? BIJII ASHEE😁😁</h2>
+          <p class="lead">
+            No pressure😁... if you dont want to answer just accept ke mee lovee youu moree than youuu 💖😁😂
+          </p>
+
+          <div id="futureBox" class="quiz-card glass"></div>
+        </div>
+      </section>
+
+      <!-- SCREEN 6 -->
+      <section id="finalLock" class="screen">
+        <div class="lock-wrap glass">
+          <div class="lock-icon">🔐</div>
+          <div class="tiny-label">💖FINAL SURPRISE💖</div>
+          <h2>Almost there, Maryamiiiii💖💖💖💖💖.</h2>
+          <p>
+            You survived the quiz.<br />
+            You survived the games.<br />
+            Now there is just one final question.
+          </p>
+          <button class="primary-btn" data-next="finalQuestion">
+            Open the final question 💌
+          </button>
+        </div>
+      </section>
+
+      <!-- SCREEN 7 -->
+      <section id="finalQuestion" class="screen">
+        <div class="final-question glass">
+          <div class="tiny-label">ONE LAST THING...</div>
+          <div class="big-heart">❤️</div>
+          <h2>Are you ready for your surprise?</h2>
+          <p id="runawayText">Choose carefully. 💖😌</p>
+          <div class="final-buttons">
+            <button id="yesBtn" class="primary-btn">YESSSS 💖❤️</button>
+            <button id="noBtn" class="secondary-btn">No 😭</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- SCREEN 8 -->
+      <section id="reveal" class="screen">
+        <div id="fireworks"></div>
+        <div class="reveal-wrap">
+          <div class="birthday-crown">👑</div>
+          <div class="tiny-label">You just turned 17 on 24 OCTOBER 2026 My queen 👑</div>
+          <h1 class="name-reveal">MARYAM<br /><span>UMAINA</span></h1>
+          <div class="confetti-heart">💖</div>
+          <h2>Happy Birthday, Maryamiiiiil 🎂</h2>
+
+          <div  class="letter glass">
+            <p>Dearrryyy,</p>
+            <p>
+              From a simple “assalamualaikum” on Snapchat to all the
+              little memories, jokes, fights, apologies, and moments that
+              somehow became ours...
+            </p>
+            <p>
+              I still think it's funnyyy that I was about to propose to you and
+              you somehow beat me to it by one minute. 😭😭😭😭😭😭😭
+            </p>
+            <p>
+              We can fight like absolute idiots, but somehow we never want to
+              sleep while something is still wrong. And the next day, we're back
+              to loving each other like we just met and we just don't wanna loose eachotherr..❤️❤️
+              uk sometimes when i miss moreee you i see you in my dreams and i wake up with a smile on my face.😊😊❤️❤️
+              and i know that no matter what happens, we will always choose each other again and again.❤️
+              i will always be there for you, and i will always love youuu endlesslyy no matter what.😊❤️
+            </p>
+            <p>
+              Ukk when i think about our future, i see us laughing, annoying each other, fixing things, loving each other endlessly and making our best memories.❤️😊
+              and when i think about our past, i see us fighting,loving and still choosing each other again.❤️😊
+            </p>
+            <p>
+              I don't know exactly what every tomorrow will look like, but I do
+              know that keep laughing, talking, annoying each other,
+              fixing things,lovingg eachother endlessly and making our besttt memories.😊❤️❤️
+            </p>
+            <p class="signature">
+              Happy birthday, my lovee, myy wifyy, my Maryamii. ❤️❤️❤️❤️❤️
+            </p>
+            <p class="from">— Yourr Ibrahimiiii😊❤️</p>
+          </div>
+          <button id="againBtn" class="secondary-btn">
+            Replay the surprise if you want no worries😁✨
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
